@@ -4,7 +4,7 @@
         x = f.resize((107, 107))
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
-        bg = Image.open(f"FallenMusic/Helpers/utils/circle.png")
+        bg = Image.open(f"SamyuktX/Helpers/utils/circle.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(30))
@@ -39,10 +39,10 @@
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("FallenMusic/Helpers/utils/font2.ttf", 45)
-        ImageFont.truetype("FallenMusic/Helpers/utils/font2.ttf", 70)
-        arial = ImageFont.truetype("FallenMusic/Helpers/utils/font2.ttf", 30)
-        ImageFont.truetype("FallenMusic/Helpers/utils/font.ttf", 30)
+        font = ImageFont.truetype("SamyuktX/Helpers/utils/font2.ttf", 45)
+        ImageFont.truetype("SamyuktX/Helpers/utils/font2.ttf", 70)
+        arial = ImageFont.truetype("SamyuktX/Helpers/utils/font2.ttf", 30)
+        ImageFont.truetype("SamyuktX/Helpers/utils/font.ttf", 30)
         para = textwrap.wrap(title, width=32)
         try:
             draw.text(
