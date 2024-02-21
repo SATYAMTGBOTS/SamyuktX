@@ -9,7 +9,7 @@ from SamyuktX.utils.database import get_loop
 from SamyuktX.utils.decorators import AdminRightsCheck
 from SamyuktX.utils.inline import close_markup, stream_markup
 from SamyuktX.utils.stream.autoclear import auto_clean
-from SamyuktX.utils.thumbnails import get_thumb
+
 from config import BANNED_USERS
 
 
