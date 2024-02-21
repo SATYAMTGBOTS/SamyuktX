@@ -18,7 +18,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #thumbnail Name
 THUMNAME = getenv("THUMNAME","SamyuktX")
 #owner Username Without @
-OWNER_USERNAME = getenv("OWNER_USERNAME","Sanam_King")
+OWNER_USERNAME = getenv("OWNER_USERNAME","mr_majnu72")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "99999"))
 
@@ -119,3 +119,4 @@ if SUPPORT_CHAT:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
         )
+FAILED = "https://te.legra.ph/file/4c896584b592593c00aa8.jpg"
