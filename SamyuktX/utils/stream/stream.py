@@ -13,7 +13,6 @@ from SamyuktX.utils.exceptions import AssistantErr
 from SamyuktX.utils.inline import aq_markup, close_markup, stream_markup
 from SamyuktX.utils.pastebin import SamyuktXBin
 from SamyuktX.utils.stream.queue import put_queue, put_queue_index
-from SamyuktX.utils.thumbnails import get_thumb
 
 
 async def stream(
